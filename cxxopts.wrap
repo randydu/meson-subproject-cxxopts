@@ -1,0 +1,9 @@
+[wrap-git]
+
+directory = cxxopts
+url=http://echo:3000/randy/meson-subproject-cxxopts.git
+revision = head
+clone-recursive = false
+
+[provide]
+cxxopts = cxxopts_dep
